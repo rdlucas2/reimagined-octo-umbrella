@@ -23,7 +23,7 @@ jobs:
         # Web request URL endpoint
         url: https://api.notifymyecho.com/v1/NotifyMe
         # Web request method (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`)
-        method: # default is GET
+        method: POST # default is GET
         # Web request payload in JSON format
         payload: '{"notification": "${{ github.actor }} just starred your repository named ${{ github.repository }}", "accessCode": "${{ secrets.NOTIFYME_KEY }}", "title": "Repository Starred"}'
         # Web request headers in JSON format
