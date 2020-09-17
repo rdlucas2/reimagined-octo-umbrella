@@ -23,6 +23,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: mything
-        uses: rdlucas2/happy-little-action@v0.0.8
+        uses: rdlucas2/happy-little-action@v0.0.9
         with:
             github-token: ${{ secrets.GITHUB_TOKEN }}
